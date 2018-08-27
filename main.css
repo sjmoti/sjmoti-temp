@@ -1,0 +1,73 @@
+html {
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+
+}
+body {
+  margin-bottom: 120px; /* Margin bottom by footer height */
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+}
+.custom-container {
+  width: 500px;
+  max-width: 500px;
+/*width: 100%;*/
+  margin-right: auto;
+  margin-left: auto;
+ /* position: relative;*/
+}
+
+@media screen and (max-width: 576px) {
+  .custom-container {
+    max-width: 500px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .custom-container {
+    max-width: 500px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .custom-container {
+    max-width: 690px;
+    width: 640px;
+  }
+
+}
+
+/* home page */
+.welcome-text {
+  margin-top:124px;
+  margin-bottom: 70px;
+  width: 75%;
+}
+
+.primary-text {
+  color: #5E5E5E;
+}
+
+.highlight {
+  padding-left:8px; 
+  padding-right: 8px;
+  margin-left: -8px;
+  background-image: -webkit-linear-gradient(bottom, #FBE331, #FBE331 45%, transparent 45%, transparent 100%)
+  /*border-bottom: 10px solid #FBE331;*/
+}
+
+.highlight-offset {
+  padding-left:8px; 
+  padding-right: 8px;
+  margin-left: -8px;
+}
+
+a.no-underline{
+  text-decoration: none;
+}
